@@ -26,3 +26,31 @@ if (today === "sunday") {
 }
 
 alert(`Tomorrow is ${tomorrow}.`);
+
+let today = prompt("What's the day today?");
+today = today.toLowerCase();
+switch (today) {
+  case "sunday":
+    console.log("Monday");
+    break;
+  case "monday":
+    console.log("Tuesday");
+    break;
+  case "tuesday":
+    console.log("Wednesday");
+    break;
+  case "wednesday":
+    console.log("Thursday");
+    break;
+  case "thursday":
+    console.log("Friday");
+    break;
+  case "friday":
+    console.log("Saturday");
+    break;
+  case "saturday":
+    console.log("Sunday");
+    break;
+  default:
+    console.log("Not a valid day.");
+}
