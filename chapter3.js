@@ -30,27 +30,28 @@ alert(`Tomorrow is ${tomorrow}.`);
 let today = prompt("What's the day today?");
 today = today.toLowerCase();
 switch (today) {
-  case "sunday":
-    console.log("Monday");
-    break;
-  case "monday":
-    console.log("Tuesday");
-    break;
-  case "tuesday":
-    console.log("Wednesday");
-    break;
-  case "wednesday":
-    console.log("Thursday");
-    break;
-  case "thursday":
-    console.log("Friday");
-    break;
-  case "friday":
-    console.log("Saturday");
-    break;
-  case "saturday":
-    console.log("Sunday");
-    break;
-  default:
-    console.log("Not a valid day.");
+    case "sunday":
+        alert("Tomorrow is Monday");
+        break;
+    case "monday":
+        alert("Tomorrow is Tuesday");
+        break;
+    case "tuesday":
+        alert("Tomorrow is Wednesday");
+        break;
+    case "wednesday":
+        alert("Tomorrow is Thursday");
+        break;
+    case "thursday":
+        alert("Tomorrow is Friday");
+        break;
+    case "friday":
+        alert("Tomorrow is Saturday");
+        break;
+    case "saturday":
+        alert("Tomorrow is Sunday");
+        break;
+    default:
+        alert("Not a valid day.");
 }
+
