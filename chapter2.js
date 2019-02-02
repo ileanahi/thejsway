@@ -26,3 +26,14 @@ alert(`Your total is $${finalPrice}`);
 let tempC = prompt("What is the temperature right now?");
 const tempF = tempC * 9 / 5 + 32;
 alert(`That is ${tempF}F!`);
+
+// Add the necessary code to swap the values of variables number1 and number2
+let number1 = 5;
+let number2 = 3;
+
+let number = number1;
+number1 = number2;
+number2 = number;
+
+console.log(number1); // Should show 3
+console.log(number2); // Should show 5
