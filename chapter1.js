@@ -7,3 +7,11 @@ console.log(6+3);
 console.log(6-3);
 console.log(6*3);
 console.log(6/3);
+
+// Values Prediction
+console.log(4 + 5);
+// result: 9
+console.log("4 + 5");
+// result: 4 + 5
+console.log("4" + "5");
+// result: 45
