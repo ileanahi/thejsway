@@ -21,3 +21,8 @@ console.log(a, b, c, d, e, f, g);
 let price = prompt("How much does this cost?");
 let finalPrice = (price * 1.206).toLocaleString("en");
 alert(`Your total is $${finalPrice}`);
+
+// Write a program that asks for a temperature in Celsius degrees, then displays it in Fahrenheit degrees
+let tempC = prompt("What is the temperature right now?");
+const tempF = tempC * 9 / 5 + 32;
+alert(`That is ${tempF}F!`);
