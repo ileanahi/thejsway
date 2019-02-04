@@ -55,3 +55,18 @@ switch (today) {
         alert("Not a valid day.");
 }
 
+// Write a program that accepts two numbers, then compares their values and displays an appropriate message in all cases
+const a = Number(prompt("Enter a number"));
+const b = Number(prompt("Enter another number"));
+
+if ((typeof a == "number") && (typeof b == "number")) {
+    if (a > b) {
+        alert(`${a} is greater than ${b}`);
+    } else if (a < b) {
+        alert(`${b} is greater than ${a}`);
+    } else {
+        alert(`${a} and ${b} are equal`);
+    }
+} else {
+    alert("Are you sure you entered numbers?");
+}
