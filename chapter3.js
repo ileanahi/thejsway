@@ -59,7 +59,7 @@ switch (today) {
 const a = Number(prompt("Enter a number"));
 const b = Number(prompt("Enter another number"));
 
-if ((typeof a == "number") && (typeof b == "number")) {
+if ((!isNaN(a)) && (!isNaN(b))) {
     if (a > b) {
         alert(`${a} is greater than ${b}`);
     } else if (a < b) {
@@ -70,3 +70,5 @@ if ((typeof a == "number") && (typeof b == "number")) {
 } else {
     alert("Are you sure you entered numbers?");
 }
+
+
